@@ -1,4 +1,4 @@
-# Azure-Sample-Iaas-Paas
+# Azure-Iaas-Paas
 The idea here is to setup a multi-tier solution in Azure. The setup is over engineered with the intention to explore possibilities.
 
 # TODO
