@@ -1,7 +1,7 @@
 # Azure-Iaas-Paas
 The idea here is to setup a multi-tier solution in Azure. The setup is over engineered with the intention to explore possibilities.
 
-# TODO
+## TODO
 1. Upload the ARM templates with parameters and veriables.
 2. Add a simple WCF project, Node API, and App project.
 3. Deploy all three projects.
