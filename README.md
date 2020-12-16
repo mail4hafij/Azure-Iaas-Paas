@@ -11,4 +11,5 @@ The idea here is to setup a multi-tier solution in Azure. The setup is over engi
 6. Document the setup for Traffic manager (performance based routing).
 7. Explain the overall flow.
 
+## Conceptual model
 <img src="Architecture.jpg" />
