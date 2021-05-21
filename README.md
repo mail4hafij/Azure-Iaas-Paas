@@ -16,3 +16,15 @@ The idea here is to setup a multi-tier solution in Azure. The setup is over engi
 
 ## Conceptual model
 <img src="Architecture.jpg" />
+
+
+## Different load balancer
+
+| Service             | Global/regional   | Recommended      |
+| ------------------- | ----------------- | ---------------- |
+| Azure Front door    | Global            | HTTP(S)          |
+| Traffic Manager     | Global            | non-HTTP(S)      |
+| Application Gateway | Regional          | HTTP(S)          |
+| Azure Load Balancer | Regional          | non-HTTP(S)      |
+
+
