@@ -18,7 +18,7 @@ The idea here is to setup a multi-tier solution in Azure. The setup is over engi
 <img src="Architecture.jpg" />
 
 
-## Different load balancer
+## Different load balancers
 
 | Service                | Global/regional   | Recommended      | Purpose                                                                                               |
 | ---------------------- | ----------------- | ---------------- | -----------------------------------------------------------------------------------------------------
