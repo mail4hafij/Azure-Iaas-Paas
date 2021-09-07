@@ -20,11 +20,12 @@ The idea here is to setup a multi-tier solution in Azure. The setup is over engi
 
 ## Different load balancer
 
-| Service             | Global/regional   | Recommended      |
-| ------------------- | ----------------- | ---------------- |
-| Azure Front door    | Global            | HTTP(S)          |
-| Traffic Manager     | Global            | non-HTTP(S)      |
-| Application Gateway | Regional          | HTTP(S)          |
-| Azure Load Balancer | Regional          | non-HTTP(S)      |
+| Service                | Global/regional   | Recommended      | Purpose                                                                                               |
+| ---------------------- | ----------------- | ---------------- | -----------------------------------------------------------------------------------------------------
+| Azure Front door       | Global            | HTTP(S)          | Perfect for multi region web traffic load balancer.
+| Traffic Manager        | Global            | non-HTTP(S)      | DNS based traffic load blancer.
+| Application Gateway    | Regional L7       | HTTP(S)          | Optimized for web traffic work load.
+| Azure Load Balancer    | Regional L4       | non-HTTP(S)      | Traffic management for virtual machines to load balance frontend requests into the backend VM servers.
+
 
 
