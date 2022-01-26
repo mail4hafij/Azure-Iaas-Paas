@@ -23,7 +23,7 @@ The idea here is to setup a multi-tier solution in Azure. The setup is over engi
 | Service                | Global/regional   | Recommended      | Purpose                                                                                               |
 | ---------------------- | ----------------- | ---------------- | -----------------------------------------------------------------------------------------------------
 | Azure Front door       | Global            | HTTP(S)          | Perfect for multi region web traffic (web apps, APIs, etc) load balancer. It has DDOS protection and 
-|                        |                   |                  | CDN support.  
+CDN support.  
 | Traffic Manager        | Global            | non-HTTP(S)      | DNS based traffic load blancer.
 | Application Gateway    | Regional          | HTTP(S)     L7   | Optimized for web traffic work load based on URLs and host header names. It also comes with WAF.
 | Azure Load Balancer    | Regional          | non-HTTP(S) L4   | Traffic management for virtual machines to load balance frontend requests into the backend VM servers.
